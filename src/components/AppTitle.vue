@@ -12,10 +12,13 @@ export default {
   <h1>{{ title }}</h1>
 </template>
 
-<style scoped>
+<style>
 
 h1 {
-  color: lightcoral;
+    text-align: center;
+    color: lightcoral;
+    font-size:40px;
+    margin-bottom:50px;
 }
 
 </style>

@@ -2,7 +2,8 @@
 
 
 <script>
-import TemplateComponent from './components/TemplateComponent.vue';
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 // my-component.js
 export default {
   data() {
@@ -11,14 +12,14 @@ export default {
     }
   },
   components:{
-    TemplateComponent
+    AppTitle, AppHero
   }
 }
 </script>
 
 <template>
-  <TemplateComponent />
-  <h1>{{ count }}</h1>
+  <AppTitle />
+  <AppHero />
 </template>
 
 <style scoped>

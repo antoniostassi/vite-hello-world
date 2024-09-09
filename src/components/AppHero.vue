@@ -3,12 +3,16 @@
 </script>
 
 <template>
-  <img src="/public/vite.svg" alt="Logo">
+    <div>
+        <img src="/public/vite.svg" alt="Logo">
+    </div>
 </template>
 
 <style scoped>
+    div {
+        text-align:center;
+    }
     img {
         width:250px;
-        text-align:center;
     }
 </style>
